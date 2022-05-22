@@ -114,3 +114,8 @@ nav {
   text-align: center;
   padding: 5px 0 0 0;
 }
+
+.welcome-text{
+  font-size: 27px;
+  margin-top: 40px;
+}
