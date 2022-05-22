@@ -1,1 +1,1 @@
-# JamHacks-Food-Deals
+# JamHacks-Foodtastic
