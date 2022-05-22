@@ -46,15 +46,26 @@ nav {
   transition: all 0.2s ease-in-out;
 }
 
+.recipe-title{
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
 
-.welcome-section {
+.recipe-description{
+  font-size: 20px;
+  text-align: center;
+  padding: 0 5vh 5vh 5vh;
+}
+
+.general-info-section{
   display: flex;
   flex-direction: row;
 }
 
 /* Split the screen in half */
 .split {
-  height: 85vh;
+  height: 50vh;
   width: 50%;
 }
 
@@ -73,7 +84,7 @@ nav {
 .centered {
   margin: 10vh auto;
   width: 70%;
-  /* border: 3px solid blue; */
+  /* border: 3px solid white; */
 }
 
 #welcome-image {
@@ -82,35 +93,54 @@ nav {
   max-height: 100%;
 }
 
-#welcome-header{
-  font-size: 72px;
-}
-
-.recipes-section{
-  height: 40vh;
-  background-color: #2A7C6F;
-  display: flex;
-}
-
-.recipe-card{
-  height: 30vh;
-  width: 30vh;
-  /* background-color: #7DD3C6; */
-  margin: auto;
-  cursor: pointer;
-  text-decoration: none;
-  color: #000;
-}
-
-.recipe-image{
-  object-fit: cover;
-  width: 100%;
-  height: 70%;
-  max-height: 100%;
-}
-
-.recipe-title{
+.general-info{
   font-size: 20px;
-  text-align: center;
-  padding: 5px;
+  font-weight: bold;
+  line-height: 50px;
+}
+
+.section-header{
+  font-size: 40px;
+  padding: 20px 40px;
+  font-weight: bold;
+}
+
+.ing-list {
+  padding: 0 10vh;
+}
+
+.ing-li {
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+.instructions-section{
+  background-color: #66b4a7;
+}
+
+#restaurant-background{
+  width: 100%;
+  max-height: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+#nutrients-background{
+  max-height: 60vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  object-fit: cover;
+}
+
+.ni-list {
+  list-style: none;
+  padding: 0 5vh;
+}
+
+.ni-li {
+  font-size: 25px;
+  padding: 20px 0;
 }
