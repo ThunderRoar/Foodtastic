@@ -152,3 +152,9 @@ nav {
 .spacer{
   height: 20px;
 }
+
+.store-li{
+  list-style: none;
+  font-size: 25px;
+  padding: 20px 0;
+}

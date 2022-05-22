@@ -96,7 +96,7 @@ nav {
   height: 30vh;
   width: 30vh;
   /* background-color: #7DD3C6; */
-  margin: auto;
+  margin: 5vh auto;
   cursor: pointer;
   text-decoration: none;
   color: #000;
@@ -112,5 +112,5 @@ nav {
 .recipe-title{
   font-size: 20px;
   text-align: center;
-  padding: 5px;
+  padding: 5px 0 0 0;
 }
