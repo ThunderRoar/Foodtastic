@@ -23,4 +23,5 @@ const flyerList = ['4887295-no-frills-summer-insiders-report', '4910299-voila-fl
 
 //scrapeProduct('https://flipp.com/en-ca/scarborough-on/flyers/groceries?postal_code=%27+code);
 //scrapeProduct('https://flipp.com/' + flyerList[0]);
-// scrapeProduct('https://flipp.com/en-ca/scarborough-on/flyers/groceries?postal_code=%27+code)
+//scrapeProduct('https://flipp.com/en-ca/scarborough-on/flyers/groceries?postal_code=%27+code');
+scrapeProduct('https://flipp.com/flyers/groceries?postal_code='+code);
